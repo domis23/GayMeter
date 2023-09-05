@@ -1,0 +1,42 @@
+body {
+  background-color: gray;
+}
+#wheel {
+  width: 80%;
+  height: 80%;
+}
+#arrow {
+  rotate: -90deg;
+}
+.wheelRot {
+  animation: rotation 0.1s 20 linear;
+  rotate: 91deg;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.red {
+  color: red;
+  font-weight: bold;
+}
+.green {
+  color: green;
+  font-weight: bold;
+}
+#button {
+  width: 100px;
+  height: 70px;
+  color: ;
+  background-color: gray;
+  border-radius: 12px;
+  border: 2px solid black;
+}
+#literki {
+  border: 2px solid black;
+  width: 25%;
+}
