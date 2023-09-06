@@ -1,16 +1,13 @@
 body {
   background-color: gray;
 }
-#wheel {
-  width: 80%;
-  height: 80%;
-}
+
 #arrow {
   rotate: -90deg;
 }
 .wheelRot {
   animation: rotation 0.1s 20 linear;
-  rotate: 91deg;
+  rotate: 90.5deg;
 }
 @keyframes rotation {
   from {
@@ -28,15 +25,96 @@ body {
   color: green;
   font-weight: bold;
 }
-#button {
+.button {
   width: 100px;
   height: 70px;
-  color: ;
+  color: black;
   background-color: gray;
   border-radius: 12px;
   border: 2px solid black;
+  font-size: 2em;
 }
-#literki {
+.literki {
   border: 2px solid black;
   width: 25%;
+}
+.hideBtn {
+  width: 0px;
+  height: 0px;
+  color: gray;
+  background-color: gray;
+  border: 0px;
+}
+@keyframes hideParagraph {
+  from {
+    width: 217px;
+    height: 18px;
+  }
+  to {
+    width: 21px;
+    height: 1.8px;
+  }
+}
+@keyframes hideDiv {
+  from {
+    /* 221x88 */
+    width: 221px;
+    height: 88px;
+  }
+  to {
+    width: 21px;
+    height: 9px;
+  }
+}
+.hideP {
+  animation-name: hideParagraph;
+  animation-duration: 1s;
+}
+.hideD {
+  animation-name: hideDiv;
+  animation-duration: 1s;
+}
+.hideText {
+  width: 0px;
+  height: 0px;
+  color: gray;
+}
+@keyframes biggers {
+  from {
+    width: 250px;
+    height: 250px;
+  }
+  to {
+    width: 500px;
+    height: 500px;
+  }
+}
+.bigger {
+  animation-name: biggers;
+  animation-duration: 4s;
+  width: 500px;
+  height: 500px;
+}
+.biggerBetter {
+  width: 500px;
+  height: 500px;
+}
+@keyframes hideBtnAnimation {
+  from {
+    width: 100px;
+    height: 70px;
+  }
+  to {
+    width: 39px;
+    height: 20px;
+  }
+}
+.buttonHide {
+  animation: hideBtnAnimation 1s;
+  color: black;
+  background-color: gray;
+  border-radius: 4px;
+  border: 1px solid black;
+  width: 39px;
+  height: 20px;
 }
