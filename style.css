@@ -86,15 +86,15 @@ body {
     height: 250px;
   }
   to {
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
   }
 }
 .bigger {
   animation-name: biggers;
-  animation-duration: 4s;
-  width: 500px;
-  height: 500px;
+  animation-duration: 3s;
+  width: 350px;
+  height: 350px;
 }
 .biggerBetter {
   width: 500px;
