@@ -97,8 +97,8 @@ body {
   height: 350px;
 }
 .biggerBetter {
-  width: 500px;
-  height: 500px;
+  width: 350px;
+  height: 350px;
 }
 @keyframes hideBtnAnimation {
   from {
