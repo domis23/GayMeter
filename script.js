@@ -6,10 +6,10 @@ const paragraphs = document.querySelectorAll('p')
 
 const RotStart = () => {
   hide()
-  setTimeout(reset, 8001)
-  setTimeout(alercik, 8000)
-  setTimeout(wheelrot, 5100)
-  setTimeout(biggerBetter, 5000)
+  setTimeout(reset, 7001)
+  setTimeout(alercik, 7000)
+  setTimeout(wheelrot, 4100)
+  setTimeout(biggerBetter, 4000)
   // setTimeout(buttonText, 800)
   bigger()
 }
