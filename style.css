@@ -7,7 +7,7 @@ body {
 }
 .wheelRot {
   animation: rotation 0.1s 20 linear;
-  rotate: 90.5deg;
+  rotate: 90deg;
 }
 @keyframes rotation {
   from {
